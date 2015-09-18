@@ -14,6 +14,13 @@
 	p {
 		font-size:95%
 		}
+	div.abstract {
+		border-radius: 20px;
+		border: 1px solid #85C2A3;
+		padding: 20px; 
+		box-shadow: 6px 6px 5px grey;
+		line-height:150%
+	}
 	</style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -32,6 +39,7 @@
 	</div>
 			<div>
 			  <ul class="nav nav-tabs">
+				<li><a href="#">Home</a>
 				<li class="active"><a href="index.html">Research </a></li>
 				<li><a href="teaching.html">Teaching</a></li>
 				<li><a href="cv.html">CV</a></li>
@@ -45,34 +53,6 @@
  
 <div style="padding:0px 0px 100px">
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3>Published Papers</h3>
-  </div>
-  
- <div class="panel-body">
-	<div class="row">
-      <div class="col-md-11">
-		<h4 class=paper>How Relevant Is Malthus for Economic Development Today?</h4> 
-		<p>Weil, David N., and Joshua Wilde. 2009. 	<i>American Economic Review</i>, 99(2): 255-60.</a></p>
-      </div>
-      <div class="col-md-1">	 
-	      <a href="http://www.jstor.org/stable/25592408" data-toggle="tooltip" title="External link"><img src="blue_link.png"></a>	  
-	  </div>
-	</div>  
-  <hr style="width:100%">
-	<div class="row">
-	  <div class="col-md-11">
-	     		<h4 class=paper>The Effect of Fertility Reduction on Economic Growth</h4>
-        <p>Ashraf, Quamrul H., David N. Weil, and Joshua Wilde. 2013.  <i>Population and Development Review</i>, vol. 39(1), pages 97-130.</a></p>
-        <p class=description>Media Coverage -- The Economist (<a href="http://www.economist.com/node/21560247">print version</a>, <a href="http://www.economist.com/blogs/feastandfamine/2012/08/fertility-decline-demographic-dividend-poverty-and-inequality">blog version</a>)
-      </div>
-      <div class="col-md-1">
-	   <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2013.00575.x/pdf" data-toggle="tooltip" title="External link"><img src="blue_link.png"></a>
-      </div>
-	</div>
- </div>
-</div>
 
 <div class="panel panel-default">
   <div class="panel-heading">
@@ -80,73 +60,196 @@
   </div>
   <div class="panel-body">
    <div class="row"> 
-	<div class="col-md-11">
+	<div class="col-md-8">
 	   <h4 class=paper>How Substitutable are Fixed Factors in Production? Evidence from Pre-Industrial England</a></h4>
        <p class=description>(Revise and Resubmit at <i>Journal of Economic Growth</i>)
     </div> 
-	<div class="col-md-1">
-		<a href="http://economics.usf.edu/PDF/Substitutability_1.pdf" target="_blank" data-toggle="tooltip" title="Link to pdf"><img src="blue_link.png"></a>
-		<a data-toggle="collapse" data-target="#abstract_fixed" ><img src="blue_abstract.png" data-toggle="tooltip" title="Show abstract"></img></a>
+	<div class="col-md-4">
+		<a data-toggle="collapse" data-target="#abstract_fixed" class="btn btn-primary btn-xs" role="button">Show Abstract</a>
+		<a href="http://economics.usf.edu/PDF/Substitutability_1.pdf" target="_blank" class="btn btn-primary btn-xs" role="button">PDF in new window</a>
 	</div>
    </div>
-		<div id="abstract_fixed" class="collapse" style="">
-		<div class="well">
-		    Blah blah fixed factors England
+		<div id="abstract_fixed" class="collapse">
+		  <div class="abstract">
+			<p>Whether fixed factors such as land constrain per capita income growth depends crucially on two variables:
+			the substitutability of fixed factors in production, and the extent to which innovation is biased towards 
+			land-saving technologies.  This paper attempts to quantify both. Using the timing of plague epidemics as an
+			instrument for labor supply, I estimate the elasticity of substitution between fixed and non-fixed factors in pre-industrial
+			England to be significantly less than one.  I also find evidence that denser populations - and hence highter land scarcity - induced innovation towards land-saving technologies.
+			Finally, by varying this elasticity of substitution in a number of well-known models of the Malthusian economy, I show that the elasticity of substitution
+			predicts the speed by which the demographic transition occurs, the order in which countries will transition, and the divergence of income levels before the transition.
+			In addition, I show this elasticity has important ramifications for the question of how population size affects economic development.
+			<a data-toggle="collapse" data-target="#abstract_fixed">Hide abstract</a></p>
+		  </div>
+		</div>    
+  <hr>
+   <div class="row">
+	<div class="col-md-8">
+		<h4 class=paper>Heat Waves at Conception and Later Life Outcomes</h4>
+		<p class=description>with Benedicte Apouey and Toni Jung (Revise and Resubmit at <i>European Economic Review</i>)</p>
+		<p class=description>Media Coverage -- (<a href="http://blogs.wsj.com/economics/2014/01/05/offbeat-dispatches-from-economic-summit/">The Wall Street Journal</a>, 
+		<a href="http://freakonomics.com/2014/01/08/gayborhoods-and-heat-waves-at-this-years-aea-meetings/">Freakonomics</a>, 
+		<a href="http://plus.lapresse.ca/screens/5eeba2a5-32fd-4631-9fb8-fb7d2ab53533%7C_0.html">La Presse</a>, 
+		<a href="http://www.res.org.uk/details/mediabrief/7676701/LIFETIME-BENEFITS-FOR-CHILDREN-CONCEIVED-DURING-HEATWAVES.html">Royal Economic Society Media Breifing</a>)</p>
+	</div>
+	<div class="col-md-4">
+		<a data-toggle="collapse" data-target="#abstract_heat" class="btn btn-primary btn-xs" role="button">Show Abstract</a>
+		<a href="http://economics.usf.edu/PDF/Wilde_Apouey_Jung_HeatWavesConception.pdf" target="_blank" class="btn btn-primary btn-xs" role="button">PDF in new window</a>
+	</div>
+   </div>
+	<div id="abstract_heat" class="collapse">
+		  <div class="abstract">
+			<p>This paper explores whether heat waves at conception, while in utero, or after birth cause better educational and health outcomes as adults.
+			Using Census and DHS data from sub-Saharan Africa, we show that individuals conceived during heat waves have higher educational attainment and 
+			literacy, fewer disabilities, and lower child mortality. However, we find no effect of temperature at other times in utero. We then explore several
+			channels through which this effect may occur, including heat-induced changes in sexual behavior, differences in parental characteristics, and intensified
+			fetal selection. We show that fetal selection is the most likely mechanism driving our result.  
+			<a data-toggle="collapse" data-target="#abstract_heat">Hide abstract</a></p>
+		  </div>
+	</div>
+  <hr style="width:100%">
+	<div class="row">
+		<div class="col-md-9">
+			<h4 class=paper>Malaria and Anemia among Children in sub-Saharan Africa: The Effect of Mosquito Bednet Distribution</a></h4>
+			<p class=description>with Benedicte Apouey, Gabriel Picone, Joseph Coleman, and Robyn Kibler (Revise and Resubmit at <i>Revue Economique</i>)
 		</div>
-	   </div>    
-  <hr style="width:100%">
-	<div style="float:right">
-		<a href="http://economics.usf.edu/PDF/Wilde_Apouey_Jung_HeatWavesConception.pdf"><img src="blue_link.png"></a>
-		<img src="blue_abstract.png" data-toggle="collapse" data-target="#abstract_heat"></img>
-	</div>
-	<div style="float:left">
-		<h4 class=paper>Heat Waves at Conception and Later Life Outcomes</a></h4>
-		<p class=description>with Benedicte Apouey and Toni Jung (Revise and Resubmit at <i>European Economic Review</i>)
-		<p class=description>Media Coverage -- (<a href="http://blogs.wsj.com/economics/2014/01/05/offbeat-dispatches-from-economic-summit/">The Wall Street Journal</a>, <a href="http://freakonomics.com/2014/01/08/gayborhoods-and-heat-waves-at-this-years-aea-meetings/">Freakonomics</a>, <a href="http://plus.lapresse.ca/screens/5eeba2a5-32fd-4631-9fb8-fb7d2ab53533%7C_0.html">La Presse</a>, <a href="http://www.res.org.uk/details/mediabrief/7676701/LIFETIME-BENEFITS-FOR-CHILDREN-CONCEIVED-DURING-HEATWAVES.html">Royal Economic Society Media Breifing</a>)
-		<div id="abstract_heat" class="collapse">
-			Blah blah heat waves Blah fetus blah 
+		<div class="col-md-3">
+			<a data-toggle="collapse" data-target="#abstract_anemia" class="btn btn-primary btn-xs" role="button">Show Abstract</a>
+			<a href="#" target="_blank" class="btn btn-primary btn-xs" role="button">PDF in new window</a>
 		</div>
 	</div>
+	<div id="abstract_anemia" class="collapse">
+		<div class="abstract">
+		Blah blah Malaria anemia
+		</div>
+	</div>
+	
   <hr style="width:100%">
-	<div style="float:right">
+    <div class="row">
+		<div class="col-md-9">	
+			<h4 class=paper>Multiproduct Firms, Product Scope and Productivity: Evidence from India's Product Reservation Policy</a></h4>
+			<p class=description>with Ishani Tewari (Submitted)
+		</div>
+		<div class="col-md-3">
+			<a data-toggle="collapse" data-target="#abstract_dereservation" class="btn btn-primary btn-xs" role="button">Show Abstract</a>
+			<a href="http://economics.usf.edu/PDF/Product%20Scope%20and%20Productivity_TewariWilde_Final.pdf" target="_blank" class="btn btn-primary btn-xs" role="button">
+			PDF in new window</a>
+		</div>
 	</div>
-	<div style="float:left">
-		<h4 class=paper>Malaria and Anemia among Children in sub-Saharan Africa: The Effect of Mosquito Bednet Distribution</a></h4>
-		<p class=description>with Benedicte Apouey, Gabriel Picone, Joseph Coleman, and Robyn Kibler (Revise and Resubmit at <i>Revue Ã©conomique</i>)
-	</div>
-  <hr style="width:100%">
-    <div style="float:right">
-	</div>
-	<div style="float:left">
-     <h4 class=paper><a href="http://economics.usf.edu/PDF/Product%20Scope%20and%20Productivity_TewariWilde_Final.pdf">Multiproduct Firms, Product Scope and Productivity: Evidence from Indiaâ€™s Product Reservation Policy</a></h4>
-     <p class=description>with Ishani Tewari (Submitted)
+	<div id="abstract_dereservation" class="collapse">
+		<div class="abstract">
+		<p>We provide novel evidence showing product scope dynamics within a firm is an
+important dimension of productivity growth. This channel is identified by leveraging the gradual
+dismantling of an Indian regulation that “reserved” hundreds of products for manufacture in the
+small-scale sector. Following the removal of these product market restrictions, product churning
+and productivity rose. Multiproduct firms who were never in the reserved sector drive this
+increase, suggesting that the reservation policy constrained their ability to achieve the optimal
+product mix. Our findings underscore the importance of incorporating heterogeneity at the
+product-firm level in assessing the impact of size-contingent regulation.
+		<a data-toggle="collapse" data-target="#abstract_dereservation">Hide abstract</a> 
+		</div>
 	</div>
  <hr style="width:100%">
-     
-	 <h4 class=paper>Infant Mortality, Fertility, and Malaria: The Effect of Mosquito Net Distribution in sub-Saharan Africa</a></h4>
-     <p class=description>with Benedicte Apouey, Stacey Gelsheimer, and Gabriel Picone
+    <div class="row">
+		<div class="col-md-9">
+			<h4 class=paper>Malaria, Child Mortality, and Fertility: The Effect of Mosquito Net Distribution in sub-Saharan Africa</a></h4>
+			<p class=description>with Benedicte Apouey, Stacey Gelsheimer, and Gabriel Picone
+		</div>
+		<div class="col-md-3">
+			<a data-toggle="collapse" data-target="#abstract_mal_fert" class="btn btn-primary btn-xs" role="button">Show Abstract</a>	
+			<a href="Wilde_Apouey_Picone_Gelsheimer_Malaria.pdf" target="_blank" class="btn btn-primary btn-xs" role="button">PDF in new window</a>
+		</div>
+	</div>	
+		<div id="abstract_mal_fert"class="collapse">
+			<div class="abstract">
+				<p>Over the last decade, there has been a large international effort to distribute insecticide-treated bed nets to reduce the incidence
+				of malaria in sub-Saharan Africa. At the same time, child mortality and female fertility have substantially declined. In this paper, we 
+				examine whether these declines in mortality and fertility can be attributed to mosquito net usage. Taking advantage of the rapid increase in
+				the distribution of nets in the mid-2000s, we employ a difference-in-differences estimation strategy to identify the causal effect of bed nets
+				on mortality and fertility across regions with diverse malaria ecological conditions. Using data on net usage and ownership, mortality, and fertility,
+				combined with information on regional malaria ecology, for 22 sub-Saharan countries between 1999 and 2013, we show that nets have a greater impact
+				on mortality in regions with ecological conditions more conducive of malaria, for children born two to three years before the date of the interview. 
+				In addition, bed nets reduce fertility of women ages 15-24 and 35-44.
+				<a data-toggle="collapse" data-target="#abstract_mal_fert">Hide abstract</a>
+			</div>
+		</div>	
   <hr style="width:100%">
-     <h4 class=paper>A Macrosimulation Model of the Effect of Fertility on Economic Growth: Evidence from Nigeria</a></h4>
-     <p class=description>with David Canning and Mahesh Karra
+	<div class="row">
+		<div class="col-md-8">
+			<h4 class=paper>A Macrosimulation Model of the Effect of Fertility on Economic Growth: Evidence from Nigeria</h4>
+			<p class=description>with David Canning and Mahesh Karra
+		</div>
+		<div class="col-md-4">
+			<a data-toggle="collapse" data-target="#abstract_model" class="btn btn-primary btn-xs" role="button">Show Abstract</a>	
+			<a href="#" target="_blank" class="btn btn-primary btn-xs" role="button">PDF in new window</a>
+		</div>
+	</div>
+	<div id="abstract_model" class="collapse">
+		<div class="abstract">
+		Blah blah macrosimulation model blah Nigeria
+		</div>
+	</div>
   <hr style="width:100%">
-     <h4 class=paper>The Effect of Ambient Temperature during Pregnancy on Human Sex Ratios at Birth</a></h4>
-     <p class=description>with Zoe McLaren
+	<div class="row">
+		<div class="col-md-8">
+			<h4 class=paper>The Effect of Ambient Temperature during Pregnancy on Human Sex Ratios at Birth</h4>
+			<p class=description>with Zoe McLaren</p>
+		</div>
+		<div class="col-md-4">
+			<a data-toggle="collapse" data-target="#abstract_sexratios" class="btn btn-primary btn-xs" role="button">Show Abstract</a>	
+			<a href="#" target="_blank" class="btn btn-primary btn-xs" role="button">PDF in new window</a>
+		</div>
+	</div>
+	<div id="abstract_sexratios" class="collapse">
+		<div class="abstract">
+		<p>Blah blah sex ratios</p>
+		</div>
+	</div>
 </div>
 </div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Published Papers</h3>
+  </div>
+ <div class="panel-body">
+	<div class="row">
+      <div class="col-md-6">
+		<h4 class=paper>How Relevant Is Malthus for Economic Development Today?</h4> 
+		<p>Weil, David N., and Joshua Wilde. 2009. 	<i>American Economic Review</i>, 99(2): 255-60.</a></p>
+      </div>
+      <div class="col-md-6">	 
+	      <a href="http://www.jstor.org/stable/25592408" target="_blank" class="btn btn-primary btn-xs" role="button">External Link</a>	  
+	  </div>
+	</div>  
+  <hr style="width:100%">
+	<div class="row">
+	  <div class="col-md-8">
+	     <h4 class=paper>The Effect of Fertility Reduction on Economic Growth</h4>
+		<p>Ashraf, Quamrul H., David N. Weil, and Joshua Wilde. 2013.  <i>Population and Development Review</i>, vol. 39(1), pages 97-130.</a></p>
+		<p class=description>Media Coverage -- The Economist (<a href="http://www.economist.com/node/21560247">print version</a>, <a href="http://www.economist.com/blogs/feastandfamine/2012/08/fertility-decline-demographic-dividend-poverty-and-inequality">blog version</a>)
+      </div>
+      <div class="col-md-4">
+	   <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1728-4457.2013.00575.x/pdf" target="_blank" class="btn btn-primary btn-xs" role="button">External link</a>
+      </div>
+	</div>
+ </div>
+</div>
+
 	 
 <div class="panel panel-default">
   <div class="panel-heading">	 
      <h3>Works in Progress</h3>
   </div>
   <div class="panel-body">
-     <h4 class=paper>Temperature and Human Sexual Activity</a></h4>
+     <h4 class=paper>Temperature and Human Sexual Activity</h4>
      <p class=description>with Benedicte Apouey
-
-     <h4 class=paper>The Adverse Effect of Little Brothers on Older Sisters</a></h4>
+  <hr>
+     <h4 class=paper>The Adverse Effect of Little Brothers on Older Sisters</h4>
      <p class=description>with Nicole Schoenecker
-
+  <hr>
      <h4 class=paper>Terms of Trade and Fertility</a></h4>
-
+  <hr>
      <h4 class=paper>Terms of Trade and Democracy</a></h4>
   </div>
 </div>	 
